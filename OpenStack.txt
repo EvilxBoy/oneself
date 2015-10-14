@@ -23,8 +23,6 @@ Trove数据库服务（database as a service）
 OpenStack的其它项目涉及：
 Infrastructure OpenStack社区建设项目
 Documentation OpenStack文档管理项目
-
-
 TripleO OpenStack部署项目
 DevStack OpenStack开发者项目
 QA OpenStack质量管理项目
