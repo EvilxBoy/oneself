@@ -1,0 +1,10 @@
+##############Update setup mysql password for root##################
+set password for 'root'@'localhost'=password('sqlroot');
+update user set passwor=password('root') where user='root';
+mysqladmin -u root -password pwd;
+mysqladmin -u root -p oldpwd password newpwd;
+flush privileges;
+
+#############create new user for mysql##############
+grant select/update/insert/delete on database.* to user@host identified by 'password';
+grant select,insert,update,delete on nginx.* to nginx@localhost identified by "nginx";
